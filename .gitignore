@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# claude-workflow 個人層佈署（symlink；只保留團隊設定）
+.claude/*
+!.claude/settings.json
